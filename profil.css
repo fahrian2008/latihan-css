@@ -1,0 +1,43 @@
+/* Selector Tag */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* Selector Class */
+.kartu-profil {
+    background-color: white;
+    width: 350px;
+    padding: 20px;      /* Box Model */
+    margin: 20px;       /* Box Model */
+    border: 2px solid #4a90e2;
+    border-radius: 15px; /* Sudut membulat */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.kartu-profil img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.nama {
+    color: #2c3e50;
+}
+
+.deskripsi {
+    color: #555;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+/* Selector ID */
+#judul {
+    font-family: Georgia, serif;
+    color: #4a90e2;
+}
